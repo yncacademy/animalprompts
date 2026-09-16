@@ -1,0 +1,1353 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>100 Cute Animal Reference Character Prompts — by Sifu Yik</title>
+<meta name="description" content="A showcase of 100 original cute 3D animal characters, each with its full character reference sheet prompt. Browse by category or alphabet, then copy the prompt and build your own.">
+<meta name="author" content="Sifu Yik">
+<meta name="theme-color" content="#fff8ef">
+<link rel="stylesheet" href="./assets/css/style.css">
+
+</head><body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="./index.html">
+      <span class="brand-mark" aria-hidden="true">Y</span>
+      <span class="brand-text">Cute Animal Prompt Library
+        <small>by Sifu Yik</small></span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="./index.html#browse" aria-current="page">Browse</a>
+      <a href="./master-prompt.html">Master Prompt</a>
+      <a href="./about.html">About</a>
+      <a class="btn btn-primary btn-sm" href="https://sifuyik.substack.com/subscribe" target="_blank" rel="noopener">Follow Sifu Yik</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="hero-eyebrow">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8z"/></svg>
+        100 characters · prompts included
+      </span>
+      <h1>Meet <span class="pop">100 cute animal</span> characters, prompt and all.</h1>
+      <p class="hero-lead">An original character library by Sifu Yik — playful 3D animal
+        designs, each rendered as a full reference sheet with turnaround, expressions,
+        palette and detail panels. Read the prompt behind any character, copy it,
+        and make your own.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#browse">Browse the collection</a>
+        <a class="btn btn-secondary" href="master-prompt.html">Get the master prompt</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><b>100</b><span>CHARACTER SHEETS</span></div>
+        <div class="hero-stat"><b>7</b><span>COLLECTIONS</span></div>
+        <div class="hero-stat"><b>100</b><span>PROMPTS TO COPY</span></div>
+      </div>
+    </div>
+    <figure class="hero-art">
+      <img src="assets/full/maple-red-panda.webp" width="1120" height="1400"
+           alt="Reference sheet for Maple, a cute red panda: five poses, four expressions, palette and macro details.">
+      <figcaption>Maple · Red panda — one of the 100 sheets</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="browse" id="browse" aria-labelledby="browse-h">
+  <div class="container">
+    <div class="browse-head">
+      <h2 id="browse-h">Browse all 100</h2>
+      <p class="result-count" id="resultCount" role="status" aria-live="polite"></p>
+    </div>
+
+    <div class="filter-group">
+      <span class="filter-label" id="cat-label">Collection</span>
+      <div class="chips" id="catChips" role="group" aria-labelledby="cat-label">
+        <button type="button" class="chip" data-cat="all" aria-pressed="true" style="--cat-color:var(--accent)">
+          <span class="dot" aria-hidden="true"></span>All characters<span class="count">100</span></button>
+        <button type="button" class="chip" data-cat="pets-farm" aria-pressed="false" style="--cat-color:var(--cat-pets-farm)"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm<span class="count">15</span></button><button type="button" class="chip" data-cat="forest-meadow" aria-pressed="false" style="--cat-color:var(--cat-forest-meadow)"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow<span class="count">23</span></button><button type="button" class="chip" data-cat="jungle-savanna" aria-pressed="false" style="--cat-color:var(--cat-jungle-savanna)"><span class="dot" aria-hidden="true"></span>Jungle &amp; Savanna<span class="count">11</span></button><button type="button" class="chip" data-cat="ocean-reef" aria-pressed="false" style="--cat-color:var(--cat-ocean-reef)"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef<span class="count">21</span></button><button type="button" class="chip" data-cat="birds-sky" aria-pressed="false" style="--cat-color:var(--cat-birds-sky)"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky<span class="count">17</span></button><button type="button" class="chip" data-cat="reptiles-amphibians" aria-pressed="false" style="--cat-color:var(--cat-reptiles-amphibians)"><span class="dot" aria-hidden="true"></span>Reptiles &amp; Amphibians<span class="count">10</span></button><button type="button" class="chip" data-cat="tiny-critters" aria-pressed="false" style="--cat-color:var(--cat-tiny-critters)"><span class="dot" aria-hidden="true"></span>Tiny Critters<span class="count">3</span></button>
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <span class="filter-label" id="alpha-label">Jump to letter</span>
+      <div class="alpha" id="alphaIndex" role="group" aria-labelledby="alpha-label"></div>
+    </div>
+
+    <div class="filter-group toolbar-actions">
+      <button type="button" class="btn btn-secondary btn-sm" id="surpriseBtn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 4h16v16H4z"/><path d="M9 9h.01M15 9h.01M9 15h6"/></svg>
+        Surprise me
+      </button>
+      <button type="button" class="btn btn-secondary btn-sm" id="resetFilters" hidden>Clear filters</button>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="grid" id="grid" role="list"><a class="card" href="character/whiskers-domestic-cat.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/whiskers-domestic-cat.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Whiskers — Domestic cat character reference sheet">
+          <span class="card-no" aria-hidden="true">01</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Whiskers</h3>
+          <p class="card-species">Domestic cat</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/biscuit-golden-retriever-puppy.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/biscuit-golden-retriever-puppy.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Biscuit — Golden retriever puppy character reference sheet">
+          <span class="card-no" aria-hidden="true">02</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Biscuit</h3>
+          <p class="card-species">Golden retriever puppy</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/niblet-syrian-hamster.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/niblet-syrian-hamster.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Niblet — Syrian hamster character reference sheet">
+          <span class="card-no" aria-hidden="true">03</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Niblet</h3>
+          <p class="card-species">Syrian hamster</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/peaches-guinea-pig.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/peaches-guinea-pig.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Peaches — Guinea pig character reference sheet">
+          <span class="card-no" aria-hidden="true">04</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Peaches</h3>
+          <p class="card-species">Guinea pig</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/dot-harvest-mouse.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/dot-harvest-mouse.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Dot — Harvest mouse character reference sheet">
+          <span class="card-no" aria-hidden="true">05</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Dot</h3>
+          <p class="card-species">Harvest mouse</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/chip-chipmunk.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/chip-chipmunk.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Chip — Chipmunk character reference sheet">
+          <span class="card-no" aria-hidden="true">06</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Chip</h3>
+          <p class="card-species">Chipmunk</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/hazel-eastern-gray-squirrel.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/hazel-eastern-gray-squirrel.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Hazel — Eastern gray squirrel character reference sheet">
+          <span class="card-no" aria-hidden="true">07</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Hazel</h3>
+          <p class="card-species">Eastern gray squirrel</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/river-north-american-beaver.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/river-north-american-beaver.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="River — North American beaver character reference sheet">
+          <span class="card-no" aria-hidden="true">08</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">River</h3>
+          <p class="card-species">North American beaver</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/bandit-common-raccoon.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/bandit-common-raccoon.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Bandit — Common raccoon character reference sheet">
+          <span class="card-no" aria-hidden="true">09</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Bandit</h3>
+          <p class="card-species">Common raccoon</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/smudge-striped-skunk.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/smudge-striped-skunk.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Smudge — Striped skunk character reference sheet">
+          <span class="card-no" aria-hidden="true">10</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Smudge</h3>
+          <p class="card-species">Striped skunk</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/tuck-nine-banded-armadillo.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/tuck-nine-banded-armadillo.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Tuck — Nine-banded armadillo character reference sheet">
+          <span class="card-no" aria-hidden="true">11</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Tuck</h3>
+          <p class="card-species">Nine-banded armadillo</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/moss-brown-throated-sloth.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/moss-brown-throated-sloth.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Moss — Brown-throated sloth character reference sheet">
+          <span class="card-no" aria-hidden="true">12</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Moss</h3>
+          <p class="card-species">Brown-throated sloth</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/noodle-giant-anteater.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/noodle-giant-anteater.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Noodle — Giant anteater character reference sheet">
+          <span class="card-no" aria-hidden="true">13</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Noodle</h3>
+          <p class="card-species">Giant anteater</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/lotus-chinese-pangolin.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/lotus-chinese-pangolin.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Lotus — Chinese pangolin character reference sheet">
+          <span class="card-no" aria-hidden="true">14</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Lotus</h3>
+          <p class="card-species">Chinese pangolin</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/pudding-common-wombat.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/pudding-common-wombat.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Pudding — Common wombat character reference sheet">
+          <span class="card-no" aria-hidden="true">15</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Pudding</h3>
+          <p class="card-species">Common wombat</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/sunny-quokka.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/sunny-quokka.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Sunny — Quokka character reference sheet">
+          <span class="card-no" aria-hidden="true">16</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Sunny</h3>
+          <p class="card-species">Quokka</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/pip-platypus.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/pip-platypus.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Pip — Platypus character reference sheet">
+          <span class="card-no" aria-hidden="true">17</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Pip</h3>
+          <p class="card-species">Platypus</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/spindle-short-beaked-echidna.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/spindle-short-beaked-echidna.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Spindle — Short-beaked echidna character reference sheet">
+          <span class="card-no" aria-hidden="true">18</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Spindle</h3>
+          <p class="card-species">Short-beaked echidna</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/scout-meerkat.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/scout-meerkat.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Scout — Meerkat character reference sheet">
+          <span class="card-no" aria-hidden="true">19</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Scout</h3>
+          <p class="card-species">Meerkat</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/pebbles-black-tailed-prairie-dog.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/pebbles-black-tailed-prairie-dog.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Pebbles — Black-tailed prairie dog character reference sheet">
+          <span class="card-no" aria-hidden="true">20</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Pebbles</h3>
+          <p class="card-species">Black-tailed prairie dog</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/taffy-llama.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/taffy-llama.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Taffy — Llama character reference sheet">
+          <span class="card-no" aria-hidden="true">21</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Taffy</h3>
+          <p class="card-species">Llama</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/cloud-alpaca.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/cloud-alpaca.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Cloud — Alpaca character reference sheet">
+          <span class="card-no" aria-hidden="true">22</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Cloud</h3>
+          <p class="card-species">Alpaca</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/summit-mountain-goat.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/summit-mountain-goat.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Summit — Mountain goat character reference sheet">
+          <span class="card-no" aria-hidden="true">23</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Summit</h3>
+          <p class="card-species">Mountain goat</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/clover-domestic-lamb.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/clover-domestic-lamb.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Clover — Domestic lamb character reference sheet">
+          <span class="card-no" aria-hidden="true">24</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Clover</h3>
+          <p class="card-species">Domestic lamb</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/truffle-domestic-piglet.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/truffle-domestic-piglet.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Truffle — Domestic piglet character reference sheet">
+          <span class="card-no" aria-hidden="true">25</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Truffle</h3>
+          <p class="card-species">Domestic piglet</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/buttercup-calf.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/buttercup-calf.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Buttercup — Calf character reference sheet">
+          <span class="card-no" aria-hidden="true">26</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Buttercup</h3>
+          <p class="card-species">Calf</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/patches-shetland-pony.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/patches-shetland-pony.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Patches — Shetland pony character reference sheet">
+          <span class="card-no" aria-hidden="true">27</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Patches</h3>
+          <p class="card-species">Shetland pony</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/clop-miniature-donkey.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/clop-miniature-donkey.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Clop — Miniature donkey character reference sheet">
+          <span class="card-no" aria-hidden="true">28</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Clop</h3>
+          <p class="card-species">Miniature donkey</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/frost-reindeer.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/frost-reindeer.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Frost — Reindeer character reference sheet">
+          <span class="card-no" aria-hidden="true">29</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Frost</h3>
+          <p class="card-species">Reindeer</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/bramble-moose-calf.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/bramble-moose-calf.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Bramble — Moose calf character reference sheet">
+          <span class="card-no" aria-hidden="true">30</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Bramble</h3>
+          <p class="card-species">Moose calf</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/roam-american-bison.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/roam-american-bison.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Roam — American bison character reference sheet">
+          <span class="card-no" aria-hidden="true">31</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Roam</h3>
+          <p class="card-species">American bison</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/yuki-domestic-yak.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/yuki-domestic-yak.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Yuki — Domestic yak character reference sheet">
+          <span class="card-no" aria-hidden="true">32</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Yuki</h3>
+          <p class="card-species">Domestic yak</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/roo-red-kangaroo.html" style="--cat-color:var(--cat-jungle-savanna)">
+        <div class="card-media">
+          <img src="assets/thumbs/roo-red-kangaroo.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Roo — Red kangaroo character reference sheet">
+          <span class="card-no" aria-hidden="true">33</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Roo</h3>
+          <p class="card-species">Red kangaroo</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Jungle &amp; Savanna</span>
+        </div>
+      </a>
+<a class="card" href="character/hop-swamp-wallaby.html" style="--cat-color:var(--cat-jungle-savanna)">
+        <div class="card-media">
+          <img src="assets/thumbs/hop-swamp-wallaby.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Hop — Swamp wallaby character reference sheet">
+          <span class="card-no" aria-hidden="true">34</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Hop</h3>
+          <p class="card-species">Swamp wallaby</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Jungle &amp; Savanna</span>
+        </div>
+      </a>
+<a class="card" href="character/kito-mountain-gorilla.html" style="--cat-color:var(--cat-jungle-savanna)">
+        <div class="card-media">
+          <img src="assets/thumbs/kito-mountain-gorilla.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Kito — Mountain gorilla character reference sheet">
+          <span class="card-no" aria-hidden="true">35</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Kito</h3>
+          <p class="card-species">Mountain gorilla</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Jungle &amp; Savanna</span>
+        </div>
+      </a>
+<a class="card" href="character/coco-chimpanzee.html" style="--cat-color:var(--cat-jungle-savanna)">
+        <div class="card-media">
+          <img src="assets/thumbs/coco-chimpanzee.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Coco — Chimpanzee character reference sheet">
+          <span class="card-no" aria-hidden="true">36</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Coco</h3>
+          <p class="card-species">Chimpanzee</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Jungle &amp; Savanna</span>
+        </div>
+      </a>
+<a class="card" href="character/mango-orangutan.html" style="--cat-color:var(--cat-jungle-savanna)">
+        <div class="card-media">
+          <img src="assets/thumbs/mango-orangutan.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Mango — Orangutan character reference sheet">
+          <span class="card-no" aria-hidden="true">37</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Mango</h3>
+          <p class="card-species">Orangutan</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Jungle &amp; Savanna</span>
+        </div>
+      </a>
+<a class="card" href="character/ringo-ring-tailed-lemur.html" style="--cat-color:var(--cat-jungle-savanna)">
+        <div class="card-media">
+          <img src="assets/thumbs/ringo-ring-tailed-lemur.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Ringo — Ring-tailed lemur character reference sheet">
+          <span class="card-no" aria-hidden="true">38</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Ringo</h3>
+          <p class="card-species">Ring-tailed lemur</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Jungle &amp; Savanna</span>
+        </div>
+      </a>
+<a class="card" href="character/mini-pygmy-marmoset.html" style="--cat-color:var(--cat-jungle-savanna)">
+        <div class="card-media">
+          <img src="assets/thumbs/mini-pygmy-marmoset.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Mini — Pygmy marmoset character reference sheet">
+          <span class="card-no" aria-hidden="true">39</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Mini</h3>
+          <p class="card-species">Pygmy marmoset</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Jungle &amp; Savanna</span>
+        </div>
+      </a>
+<a class="card" href="character/zip-common-squirrel-monkey.html" style="--cat-color:var(--cat-jungle-savanna)">
+        <div class="card-media">
+          <img src="assets/thumbs/zip-common-squirrel-monkey.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Zip — Common squirrel monkey character reference sheet">
+          <span class="card-no" aria-hidden="true">40</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Zip</h3>
+          <p class="card-species">Common squirrel monkey</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Jungle &amp; Savanna</span>
+        </div>
+      </a>
+<a class="card" href="character/echo-egyptian-fruit-bat.html" style="--cat-color:var(--cat-jungle-savanna)">
+        <div class="card-media">
+          <img src="assets/thumbs/echo-egyptian-fruit-bat.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Echo — Egyptian fruit bat character reference sheet">
+          <span class="card-no" aria-hidden="true">41</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Echo</h3>
+          <p class="card-species">Egyptian fruit bat</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Jungle &amp; Savanna</span>
+        </div>
+      </a>
+<a class="card" href="character/tundra-atlantic-walrus.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/tundra-atlantic-walrus.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Tundra — Atlantic walrus character reference sheet">
+          <span class="card-no" aria-hidden="true">42</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Tundra</h3>
+          <p class="card-species">Atlantic walrus</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/marina-west-indian-manatee.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/marina-west-indian-manatee.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Marina — West Indian manatee character reference sheet">
+          <span class="card-no" aria-hidden="true">43</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Marina</h3>
+          <p class="card-species">West Indian manatee</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/tide-dugong.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/tide-dugong.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Tide — Dugong character reference sheet">
+          <span class="card-no" aria-hidden="true">44</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Tide</h3>
+          <p class="card-species">Dugong</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/prism-narwhal.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/prism-narwhal.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Prism — Narwhal character reference sheet">
+          <span class="card-no" aria-hidden="true">45</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Prism</h3>
+          <p class="card-species">Narwhal</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/pearl-beluga-whale.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/pearl-beluga-whale.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Pearl — Beluga whale character reference sheet">
+          <span class="card-no" aria-hidden="true">46</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Pearl</h3>
+          <p class="card-species">Beluga whale</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/ripple-bottlenose-dolphin.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/ripple-bottlenose-dolphin.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Ripple — Bottlenose dolphin character reference sheet">
+          <span class="card-no" aria-hidden="true">47</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Ripple</h3>
+          <p class="card-species">Bottlenose dolphin</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/harbor-humpback-whale.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/harbor-humpback-whale.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Harbor — Humpback whale character reference sheet">
+          <span class="card-no" aria-hidden="true">48</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Harbor</h3>
+          <p class="card-species">Humpback whale</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/splash-orca.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/splash-orca.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Splash — Orca character reference sheet">
+          <span class="card-no" aria-hidden="true">49</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Splash</h3>
+          <p class="card-species">Orca</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/glide-reef-manta-ray.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/glide-reef-manta-ray.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Glide — Reef manta ray character reference sheet">
+          <span class="card-no" aria-hidden="true">50</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Glide</h3>
+          <p class="card-species">Reef manta ray</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/coral-common-seahorse.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/coral-common-seahorse.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Coral — Common seahorse character reference sheet">
+          <span class="card-no" aria-hidden="true">51</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Coral</h3>
+          <p class="card-species">Common seahorse</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/nemoa-clownfish.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/nemoa-clownfish.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Nemoa — Clownfish character reference sheet">
+          <span class="card-no" aria-hidden="true">52</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Nemoa</h3>
+          <p class="card-species">Clownfish</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/puff-spotted-pufferfish.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/puff-spotted-pufferfish.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Puff — Spotted pufferfish character reference sheet">
+          <span class="card-no" aria-hidden="true">53</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Puff</h3>
+          <p class="card-species">Spotted pufferfish</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/inky-common-octopus.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/inky-common-octopus.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Inky — Common octopus character reference sheet">
+          <span class="card-no" aria-hidden="true">54</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Inky</h3>
+          <p class="card-species">Common octopus</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/squish-reef-squid.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/squish-reef-squid.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Squish — Reef squid character reference sheet">
+          <span class="card-no" aria-hidden="true">55</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Squish</h3>
+          <p class="card-species">Reef squid</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/luna-moon-jellyfish.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/luna-moon-jellyfish.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Luna — Moon jellyfish character reference sheet">
+          <span class="card-no" aria-hidden="true">56</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Luna</h3>
+          <p class="card-species">Moon jellyfish</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/stella-common-starfish.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/stella-common-starfish.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Stella — Common starfish character reference sheet">
+          <span class="card-no" aria-hidden="true">57</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Stella</h3>
+          <p class="card-species">Common starfish</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/shellby-hermit-crab.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/shellby-hermit-crab.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Shellby — Hermit crab character reference sheet">
+          <span class="card-no" aria-hidden="true">58</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Shellby</h3>
+          <p class="card-species">Hermit crab</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/crusty-american-lobster.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/crusty-american-lobster.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Crusty — American lobster character reference sheet">
+          <span class="card-no" aria-hidden="true">59</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Crusty</h3>
+          <p class="card-species">American lobster</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/comet-peacock-mantis-shrimp.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/comet-peacock-mantis-shrimp.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Comet — Peacock mantis shrimp character reference sheet">
+          <span class="card-no" aria-hidden="true">60</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Comet</h3>
+          <p class="card-species">Peacock mantis shrimp</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/marina-green-sea-turtle.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/marina-green-sea-turtle.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Marina — Green sea turtle character reference sheet">
+          <span class="card-no" aria-hidden="true">61</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Marina</h3>
+          <p class="card-species">Green sea turtle</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/atlas-aldabra-giant-tortoise.html" style="--cat-color:var(--cat-reptiles-amphibians)">
+        <div class="card-media">
+          <img src="assets/thumbs/atlas-aldabra-giant-tortoise.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Atlas — Aldabra giant tortoise character reference sheet">
+          <span class="card-no" aria-hidden="true">62</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Atlas</h3>
+          <p class="card-species">Aldabra giant tortoise</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Reptiles &amp; Amphibians</span>
+        </div>
+      </a>
+<a class="card" href="character/chroma-veiled-chameleon.html" style="--cat-color:var(--cat-reptiles-amphibians)">
+        <div class="card-media">
+          <img src="assets/thumbs/chroma-veiled-chameleon.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Chroma — Veiled chameleon character reference sheet">
+          <span class="card-no" aria-hidden="true">63</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Chroma</h3>
+          <p class="card-species">Veiled chameleon</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Reptiles &amp; Amphibians</span>
+        </div>
+      </a>
+<a class="card" href="character/pixel-leopard-gecko.html" style="--cat-color:var(--cat-reptiles-amphibians)">
+        <div class="card-media">
+          <img src="assets/thumbs/pixel-leopard-gecko.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Pixel — Leopard gecko character reference sheet">
+          <span class="card-no" aria-hidden="true">64</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Pixel</h3>
+          <p class="card-species">Leopard gecko</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Reptiles &amp; Amphibians</span>
+        </div>
+      </a>
+<a class="card" href="character/dapple-blue-poison-dart-frog.html" style="--cat-color:var(--cat-reptiles-amphibians)">
+        <div class="card-media">
+          <img src="assets/thumbs/dapple-blue-poison-dart-frog.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Dapple — Blue poison dart frog character reference sheet">
+          <span class="card-no" aria-hidden="true">65</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Dapple</h3>
+          <p class="card-species">Blue poison dart frog</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Reptiles &amp; Amphibians</span>
+        </div>
+      </a>
+<a class="card" href="character/ember-fire-salamander.html" style="--cat-color:var(--cat-reptiles-amphibians)">
+        <div class="card-media">
+          <img src="assets/thumbs/ember-fire-salamander.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Ember — Fire salamander character reference sheet">
+          <span class="card-no" aria-hidden="true">66</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Ember</h3>
+          <p class="card-species">Fire salamander</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Reptiles &amp; Amphibians</span>
+        </div>
+      </a>
+<a class="card" href="character/slinky-corn-snake.html" style="--cat-color:var(--cat-reptiles-amphibians)">
+        <div class="card-media">
+          <img src="assets/thumbs/slinky-corn-snake.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Slinky — Corn snake character reference sheet">
+          <span class="card-no" aria-hidden="true">67</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Slinky</h3>
+          <p class="card-species">Corn snake</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Reptiles &amp; Amphibians</span>
+        </div>
+      </a>
+<a class="card" href="character/ivy-green-iguana.html" style="--cat-color:var(--cat-reptiles-amphibians)">
+        <div class="card-media">
+          <img src="assets/thumbs/ivy-green-iguana.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Ivy — Green iguana character reference sheet">
+          <span class="card-no" aria-hidden="true">68</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Ivy</h3>
+          <p class="card-species">Green iguana</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Reptiles &amp; Amphibians</span>
+        </div>
+      </a>
+<a class="card" href="character/snap-baby-nile-crocodile.html" style="--cat-color:var(--cat-reptiles-amphibians)">
+        <div class="card-media">
+          <img src="assets/thumbs/snap-baby-nile-crocodile.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Snap — Baby Nile crocodile character reference sheet">
+          <span class="card-no" aria-hidden="true">69</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Snap</h3>
+          <p class="card-species">Baby Nile crocodile</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Reptiles &amp; Amphibians</span>
+        </div>
+      </a>
+<a class="card" href="character/sunny-american-alligator.html" style="--cat-color:var(--cat-reptiles-amphibians)">
+        <div class="card-media">
+          <img src="assets/thumbs/sunny-american-alligator.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Sunny — American alligator character reference sheet">
+          <span class="card-no" aria-hidden="true">70</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Sunny</h3>
+          <p class="card-species">American alligator</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Reptiles &amp; Amphibians</span>
+        </div>
+      </a>
+<a class="card" href="character/flammy-greater-flamingo.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/flammy-greater-flamingo.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Flammy — Greater flamingo character reference sheet">
+          <span class="card-no" aria-hidden="true">71</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Flammy</h3>
+          <p class="card-species">Greater flamingo</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/nimbus-snowy-owl.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/nimbus-snowy-owl.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Nimbus — Snowy owl character reference sheet">
+          <span class="card-no" aria-hidden="true">72</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Nimbus</h3>
+          <p class="card-species">Snowy owl</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/rio-scarlet-macaw.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/rio-scarlet-macaw.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Rio — Scarlet macaw character reference sheet">
+          <span class="card-no" aria-hidden="true">73</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Rio</h3>
+          <p class="card-species">Scarlet macaw</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/tuki-toco-toucan.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/tuki-toco-toucan.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Tuki — Toco toucan character reference sheet">
+          <span class="card-no" aria-hidden="true">74</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Tuki</h3>
+          <p class="card-species">Toco toucan</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/zing-ruby-throated-hummingbird.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/zing-ruby-throated-hummingbird.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Zing — Ruby-throated hummingbird character reference sheet">
+          <span class="card-no" aria-hidden="true">75</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Zing</h3>
+          <p class="card-species">Ruby-throated hummingbird</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/opal-indian-peafowl.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/opal-indian-peafowl.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Opal — Indian peafowl character reference sheet">
+          <span class="card-no" aria-hidden="true">76</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Opal</h3>
+          <p class="card-species">Indian peafowl</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/pipit-european-robin.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/pipit-european-robin.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Pipit — European robin character reference sheet">
+          <span class="card-no" aria-hidden="true">77</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Pipit</h3>
+          <p class="card-species">European robin</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/ink-common-raven.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/ink-common-raven.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Ink — Common raven character reference sheet">
+          <span class="card-no" aria-hidden="true">78</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Ink</h3>
+          <p class="card-species">Common raven</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/pearl-mute-swan.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/pearl-mute-swan.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Pearl — Mute swan character reference sheet">
+          <span class="card-no" aria-hidden="true">79</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Pearl</h3>
+          <p class="card-species">Mute swan</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/ducky-mallard-duckling.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/ducky-mallard-duckling.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Ducky — Mallard duckling character reference sheet">
+          <span class="card-no" aria-hidden="true">80</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Ducky</h3>
+          <p class="card-species">Mallard duckling</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/gander-greylag-goose.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/gander-greylag-goose.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Gander — Greylag goose character reference sheet">
+          <span class="card-no" aria-hidden="true">81</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Gander</h3>
+          <p class="card-species">Greylag goose</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/cluck-silkie-chicken.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/cluck-silkie-chicken.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Cluck — Silkie chicken character reference sheet">
+          <span class="card-no" aria-hidden="true">82</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Cluck</h3>
+          <p class="card-species">Silkie chicken</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/gobble-wild-turkey.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/gobble-wild-turkey.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Gobble — Wild turkey character reference sheet">
+          <span class="card-no" aria-hidden="true">83</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Gobble</h3>
+          <p class="card-species">Wild turkey</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/strider-common-ostrich.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/strider-common-ostrich.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Strider — Common ostrich character reference sheet">
+          <span class="card-no" aria-hidden="true">84</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Strider</h3>
+          <p class="card-species">Common ostrich</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/kiki-emu.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/kiki-emu.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Kiki — Emu character reference sheet">
+          <span class="card-no" aria-hidden="true">85</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Kiki</h3>
+          <p class="card-species">Emu</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/pelly-brown-pelican.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/pelly-brown-pelican.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Pelly — Brown pelican character reference sheet">
+          <span class="card-no" aria-hidden="true">86</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Pelly</h3>
+          <p class="card-species">Brown pelican</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/fjord-atlantic-puffin.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/fjord-atlantic-puffin.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Fjord — Atlantic puffin character reference sheet">
+          <span class="card-no" aria-hidden="true">87</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Fjord</h3>
+          <p class="card-species">Atlantic puffin</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/buzz-western-honeybee.html" style="--cat-color:var(--cat-tiny-critters)">
+        <div class="card-media">
+          <img src="assets/thumbs/buzz-western-honeybee.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Buzz — Western honeybee character reference sheet">
+          <span class="card-no" aria-hidden="true">88</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Buzz</h3>
+          <p class="card-species">Western honeybee</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Tiny Critters</span>
+        </div>
+      </a>
+<a class="card" href="character/mariposa-monarch-butterfly.html" style="--cat-color:var(--cat-tiny-critters)">
+        <div class="card-media">
+          <img src="assets/thumbs/mariposa-monarch-butterfly.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Mariposa — Monarch butterfly character reference sheet">
+          <span class="card-no" aria-hidden="true">89</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Mariposa</h3>
+          <p class="card-species">Monarch butterfly</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Tiny Critters</span>
+        </div>
+      </a>
+<a class="card" href="character/ruby-seven-spotted-ladybug.html" style="--cat-color:var(--cat-tiny-critters)">
+        <div class="card-media">
+          <img src="assets/thumbs/ruby-seven-spotted-ladybug.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Ruby — Seven-spotted ladybug character reference sheet">
+          <span class="card-no" aria-hidden="true">90</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Ruby</h3>
+          <p class="card-species">Seven-spotted ladybug</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Tiny Critters</span>
+        </div>
+      </a>
+<a class="card" href="character/maple-red-panda.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/maple-red-panda.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Maple — Red panda character reference sheet">
+          <span class="card-no" aria-hidden="true">91</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Maple</h3>
+          <p class="card-species">Red panda</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/pebble-sea-otter.html" style="--cat-color:var(--cat-ocean-reef)">
+        <div class="card-media">
+          <img src="assets/thumbs/pebble-sea-otter.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Pebble — Sea otter character reference sheet">
+          <span class="card-no" aria-hidden="true">92</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Pebble</h3>
+          <p class="card-species">Sea otter</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Ocean &amp; Reef</span>
+        </div>
+      </a>
+<a class="card" href="character/nova-baby-penguin.html" style="--cat-color:var(--cat-birds-sky)">
+        <div class="card-media">
+          <img src="assets/thumbs/nova-baby-penguin.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Nova — Baby penguin character reference sheet">
+          <span class="card-no" aria-hidden="true">93</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Nova</h3>
+          <p class="card-species">Baby penguin</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Birds &amp; Sky</span>
+        </div>
+      </a>
+<a class="card" href="character/dune-fennec-fox.html" style="--cat-color:var(--cat-jungle-savanna)">
+        <div class="card-media">
+          <img src="assets/thumbs/dune-fennec-fox.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Dune — Fennec fox character reference sheet">
+          <span class="card-no" aria-hidden="true">94</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Dune</h3>
+          <p class="card-species">Fennec fox</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Jungle &amp; Savanna</span>
+        </div>
+      </a>
+<a class="card" href="character/bloom-axolotl.html" style="--cat-color:var(--cat-reptiles-amphibians)">
+        <div class="card-media">
+          <img src="assets/thumbs/bloom-axolotl.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Bloom — Axolotl character reference sheet">
+          <span class="card-no" aria-hidden="true">95</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Bloom</h3>
+          <p class="card-species">Axolotl</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Reptiles &amp; Amphibians</span>
+        </div>
+      </a>
+<a class="card" href="character/clover-capybara.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/clover-capybara.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Clover — Capybara character reference sheet">
+          <span class="card-no" aria-hidden="true">96</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Clover</h3>
+          <p class="card-species">Capybara</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/button-bunny.html" style="--cat-color:var(--cat-pets-farm)">
+        <div class="card-media">
+          <img src="assets/thumbs/button-bunny.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Button — Bunny character reference sheet">
+          <span class="card-no" aria-hidden="true">97</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Button</h3>
+          <p class="card-species">Bunny</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Pets &amp; Farm</span>
+        </div>
+      </a>
+<a class="card" href="character/koa-koala.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/koa-koala.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Koa — Koala character reference sheet">
+          <span class="card-no" aria-hidden="true">98</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Koa</h3>
+          <p class="card-species">Koala</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/acorn-hedgehog.html" style="--cat-color:var(--cat-forest-meadow)">
+        <div class="card-media">
+          <img src="assets/thumbs/acorn-hedgehog.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Acorn — Hedgehog character reference sheet">
+          <span class="card-no" aria-hidden="true">99</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Acorn</h3>
+          <p class="card-species">Hedgehog</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Forest &amp; Meadow</span>
+        </div>
+      </a>
+<a class="card" href="character/tambo-baby-elephant.html" style="--cat-color:var(--cat-jungle-savanna)">
+        <div class="card-media">
+          <img src="assets/thumbs/tambo-baby-elephant.webp" width="560" height="700" loading="lazy" decoding="async"
+               alt="Tambo — Baby elephant character reference sheet">
+          <span class="card-no" aria-hidden="true">100</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-name">Tambo</h3>
+          <p class="card-species">Baby elephant</p>
+          <span class="card-cat"><span class="dot" aria-hidden="true"></span>Jungle &amp; Savanna</span>
+        </div>
+      </a></div>
+
+  <div class="state" id="emptyState" hidden>
+    <div class="state-mark" aria-hidden="true">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    </div>
+    <h3>No characters found</h3>
+    <p id="emptyMsg">Try a different combination of filters.</p>
+    <button type="button" class="btn btn-primary btn-sm" onclick="document.getElementById('resetFilters').click()">
+      Clear filters</button>
+  </div>
+</div>
+
+<section class="subscribe" aria-labelledby="sub-h">
+  <div class="subscribe-inner">
+    <span class="kicker">Learn AI with Sifu Yik</span>
+    <h2 id="sub-h">Want to make characters like these?</h2>
+    <p>Every one of these 100 sheets started as a prompt. Sifu Yik writes about AI,
+       character design and the practical craft of building with models — free, in your inbox.</p>
+    <a class="btn btn-primary" href="https://sifuyik.substack.com/subscribe" target="_blank" rel="noopener">
+      Subscribe on Substack
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+    <p class="fineprint">Free to join · New articles on AI and character creation</p>
+  </div>
+</section></main>
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <h2>Cute Animal Prompt Library</h2>
+      <p>A collection of 100 original cute 3D animal characters, with the character
+         reference sheet prompts behind each one.</p>
+      <p>Created by <strong>Sifu Yik</strong>.</p>
+    </div>
+    <div>
+      <h2>Explore</h2>
+      <a href="./index.html">All 100 characters</a>
+      <a href="./master-prompt.html">Master prompt template</a>
+      <a href="./about.html">About the project</a>
+    </div>
+    <div>
+      <h2>Learn AI</h2>
+      <a href="https://sifuyik.substack.com/subscribe" target="_blank" rel="noopener">Sifu Yik on Substack</a>
+      <p>Practical AI writing and tutorials.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Sifu Yik. Artwork and prompts all rights reserved.</span>
+    <span>Built as a static showcase site.</span>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="assets/data/characters.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
