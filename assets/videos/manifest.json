@@ -1,0 +1,402 @@
+{
+ "acorn-hedgehog": {
+  "mp4": "assets/videos/acorn-hedgehog.mp4",
+  "poster": "assets/videos/posters/acorn-hedgehog.webp"
+ },
+ "atlas-aldabra-giant-tortoise": {
+  "mp4": "assets/videos/atlas-aldabra-giant-tortoise.mp4",
+  "poster": "assets/videos/posters/atlas-aldabra-giant-tortoise.webp"
+ },
+ "bandit-common-raccoon": {
+  "mp4": "assets/videos/bandit-common-raccoon.mp4",
+  "poster": "assets/videos/posters/bandit-common-raccoon.webp"
+ },
+ "biscuit-golden-retriever-puppy": {
+  "mp4": "assets/videos/biscuit-golden-retriever-puppy.mp4",
+  "poster": "assets/videos/posters/biscuit-golden-retriever-puppy.webp"
+ },
+ "bloom-axolotl": {
+  "mp4": "assets/videos/bloom-axolotl.mp4",
+  "poster": "assets/videos/posters/bloom-axolotl.webp"
+ },
+ "bramble-moose-calf": {
+  "mp4": "assets/videos/bramble-moose-calf.mp4",
+  "poster": "assets/videos/posters/bramble-moose-calf.webp"
+ },
+ "buttercup-calf": {
+  "mp4": "assets/videos/buttercup-calf.mp4",
+  "poster": "assets/videos/posters/buttercup-calf.webp"
+ },
+ "button-bunny": {
+  "mp4": "assets/videos/button-bunny.mp4",
+  "poster": "assets/videos/posters/button-bunny.webp"
+ },
+ "buzz-western-honeybee": {
+  "mp4": "assets/videos/buzz-western-honeybee.mp4",
+  "poster": "assets/videos/posters/buzz-western-honeybee.webp"
+ },
+ "chip-chipmunk": {
+  "mp4": "assets/videos/chip-chipmunk.mp4",
+  "poster": "assets/videos/posters/chip-chipmunk.webp"
+ },
+ "chroma-veiled-chameleon": {
+  "mp4": "assets/videos/chroma-veiled-chameleon.mp4",
+  "poster": "assets/videos/posters/chroma-veiled-chameleon.webp"
+ },
+ "clop-miniature-donkey": {
+  "mp4": "assets/videos/clop-miniature-donkey.mp4",
+  "poster": "assets/videos/posters/clop-miniature-donkey.webp"
+ },
+ "cloud-alpaca": {
+  "mp4": "assets/videos/cloud-alpaca.mp4",
+  "poster": "assets/videos/posters/cloud-alpaca.webp"
+ },
+ "clover-capybara": {
+  "mp4": "assets/videos/clover-capybara.mp4",
+  "poster": "assets/videos/posters/clover-capybara.webp"
+ },
+ "clover-domestic-lamb": {
+  "mp4": "assets/videos/clover-domestic-lamb.mp4",
+  "poster": "assets/videos/posters/clover-domestic-lamb.webp"
+ },
+ "cluck-silkie-chicken": {
+  "mp4": "assets/videos/cluck-silkie-chicken.mp4",
+  "poster": "assets/videos/posters/cluck-silkie-chicken.webp"
+ },
+ "coco-chimpanzee": {
+  "mp4": "assets/videos/coco-chimpanzee.mp4",
+  "poster": "assets/videos/posters/coco-chimpanzee.webp"
+ },
+ "comet-peacock-mantis-shrimp": {
+  "mp4": "assets/videos/comet-peacock-mantis-shrimp.mp4",
+  "poster": "assets/videos/posters/comet-peacock-mantis-shrimp.webp"
+ },
+ "coral-common-seahorse": {
+  "mp4": "assets/videos/coral-common-seahorse.mp4",
+  "poster": "assets/videos/posters/coral-common-seahorse.webp"
+ },
+ "crusty-american-lobster": {
+  "mp4": "assets/videos/crusty-american-lobster.mp4",
+  "poster": "assets/videos/posters/crusty-american-lobster.webp"
+ },
+ "dapple-blue-poison-dart-frog": {
+  "mp4": "assets/videos/dapple-blue-poison-dart-frog.mp4",
+  "poster": "assets/videos/posters/dapple-blue-poison-dart-frog.webp"
+ },
+ "dot-harvest-mouse": {
+  "mp4": "assets/videos/dot-harvest-mouse.mp4",
+  "poster": "assets/videos/posters/dot-harvest-mouse.webp"
+ },
+ "ducky-mallard-duckling": {
+  "mp4": "assets/videos/ducky-mallard-duckling.mp4",
+  "poster": "assets/videos/posters/ducky-mallard-duckling.webp"
+ },
+ "dune-fennec-fox": {
+  "mp4": "assets/videos/dune-fennec-fox.mp4",
+  "poster": "assets/videos/posters/dune-fennec-fox.webp"
+ },
+ "echo-egyptian-fruit-bat": {
+  "mp4": "assets/videos/echo-egyptian-fruit-bat.mp4",
+  "poster": "assets/videos/posters/echo-egyptian-fruit-bat.webp"
+ },
+ "ember-fire-salamander": {
+  "mp4": "assets/videos/ember-fire-salamander.mp4",
+  "poster": "assets/videos/posters/ember-fire-salamander.webp"
+ },
+ "fjord-atlantic-puffin": {
+  "mp4": "assets/videos/fjord-atlantic-puffin.mp4",
+  "poster": "assets/videos/posters/fjord-atlantic-puffin.webp"
+ },
+ "flammy-greater-flamingo": {
+  "mp4": "assets/videos/flammy-greater-flamingo.mp4",
+  "poster": "assets/videos/posters/flammy-greater-flamingo.webp"
+ },
+ "frost-reindeer": {
+  "mp4": "assets/videos/frost-reindeer.mp4",
+  "poster": "assets/videos/posters/frost-reindeer.webp"
+ },
+ "gander-greylag-goose": {
+  "mp4": "assets/videos/gander-greylag-goose.mp4",
+  "poster": "assets/videos/posters/gander-greylag-goose.webp"
+ },
+ "glide-reef-manta-ray": {
+  "mp4": "assets/videos/glide-reef-manta-ray.mp4",
+  "poster": "assets/videos/posters/glide-reef-manta-ray.webp"
+ },
+ "gobble-wild-turkey": {
+  "mp4": "assets/videos/gobble-wild-turkey.mp4",
+  "poster": "assets/videos/posters/gobble-wild-turkey.webp"
+ },
+ "harbor-humpback-whale": {
+  "mp4": "assets/videos/harbor-humpback-whale.mp4",
+  "poster": "assets/videos/posters/harbor-humpback-whale.webp"
+ },
+ "hazel-eastern-gray-squirrel": {
+  "mp4": "assets/videos/hazel-eastern-gray-squirrel.mp4",
+  "poster": "assets/videos/posters/hazel-eastern-gray-squirrel.webp"
+ },
+ "hop-swamp-wallaby": {
+  "mp4": "assets/videos/hop-swamp-wallaby.mp4",
+  "poster": "assets/videos/posters/hop-swamp-wallaby.webp"
+ },
+ "ink-common-raven": {
+  "mp4": "assets/videos/ink-common-raven.mp4",
+  "poster": "assets/videos/posters/ink-common-raven.webp"
+ },
+ "inky-common-octopus": {
+  "mp4": "assets/videos/inky-common-octopus.mp4",
+  "poster": "assets/videos/posters/inky-common-octopus.webp"
+ },
+ "ivy-green-iguana": {
+  "mp4": "assets/videos/ivy-green-iguana.mp4",
+  "poster": "assets/videos/posters/ivy-green-iguana.webp"
+ },
+ "kiki-emu": {
+  "mp4": "assets/videos/kiki-emu.mp4",
+  "poster": "assets/videos/posters/kiki-emu.webp"
+ },
+ "kito-mountain-gorilla": {
+  "mp4": "assets/videos/kito-mountain-gorilla.mp4",
+  "poster": "assets/videos/posters/kito-mountain-gorilla.webp"
+ },
+ "koa-koala": {
+  "mp4": "assets/videos/koa-koala.mp4",
+  "poster": "assets/videos/posters/koa-koala.webp"
+ },
+ "lotus-chinese-pangolin": {
+  "mp4": "assets/videos/lotus-chinese-pangolin.mp4",
+  "poster": "assets/videos/posters/lotus-chinese-pangolin.webp"
+ },
+ "luna-moon-jellyfish": {
+  "mp4": "assets/videos/luna-moon-jellyfish.mp4",
+  "poster": "assets/videos/posters/luna-moon-jellyfish.webp"
+ },
+ "mango-orangutan": {
+  "mp4": "assets/videos/mango-orangutan.mp4",
+  "poster": "assets/videos/posters/mango-orangutan.webp"
+ },
+ "maple-red-panda": {
+  "mp4": "assets/videos/maple-red-panda.mp4",
+  "poster": "assets/videos/posters/maple-red-panda.webp"
+ },
+ "marina-green-sea-turtle": {
+  "mp4": "assets/videos/marina-green-sea-turtle.mp4",
+  "poster": "assets/videos/posters/marina-green-sea-turtle.webp"
+ },
+ "marina-west-indian-manatee": {
+  "mp4": "assets/videos/marina-west-indian-manatee.mp4",
+  "poster": "assets/videos/posters/marina-west-indian-manatee.webp"
+ },
+ "mariposa-monarch-butterfly": {
+  "mp4": "assets/videos/mariposa-monarch-butterfly.mp4",
+  "poster": "assets/videos/posters/mariposa-monarch-butterfly.webp"
+ },
+ "mini-pygmy-marmoset": {
+  "mp4": "assets/videos/mini-pygmy-marmoset.mp4",
+  "poster": "assets/videos/posters/mini-pygmy-marmoset.webp"
+ },
+ "moss-brown-throated-sloth": {
+  "mp4": "assets/videos/moss-brown-throated-sloth.mp4",
+  "poster": "assets/videos/posters/moss-brown-throated-sloth.webp"
+ },
+ "nemoa-clownfish": {
+  "mp4": "assets/videos/nemoa-clownfish.mp4",
+  "poster": "assets/videos/posters/nemoa-clownfish.webp"
+ },
+ "niblet-syrian-hamster": {
+  "mp4": "assets/videos/niblet-syrian-hamster.mp4",
+  "poster": "assets/videos/posters/niblet-syrian-hamster.webp"
+ },
+ "nimbus-snowy-owl": {
+  "mp4": "assets/videos/nimbus-snowy-owl.mp4",
+  "poster": "assets/videos/posters/nimbus-snowy-owl.webp"
+ },
+ "noodle-giant-anteater": {
+  "mp4": "assets/videos/noodle-giant-anteater.mp4",
+  "poster": "assets/videos/posters/noodle-giant-anteater.webp"
+ },
+ "nova-baby-penguin": {
+  "mp4": "assets/videos/nova-baby-penguin.mp4",
+  "poster": "assets/videos/posters/nova-baby-penguin.webp"
+ },
+ "opal-indian-peafowl": {
+  "mp4": "assets/videos/opal-indian-peafowl.mp4",
+  "poster": "assets/videos/posters/opal-indian-peafowl.webp"
+ },
+ "patches-shetland-pony": {
+  "mp4": "assets/videos/patches-shetland-pony.mp4",
+  "poster": "assets/videos/posters/patches-shetland-pony.webp"
+ },
+ "peaches-guinea-pig": {
+  "mp4": "assets/videos/peaches-guinea-pig.mp4",
+  "poster": "assets/videos/posters/peaches-guinea-pig.webp"
+ },
+ "pearl-beluga-whale": {
+  "mp4": "assets/videos/pearl-beluga-whale.mp4",
+  "poster": "assets/videos/posters/pearl-beluga-whale.webp"
+ },
+ "pearl-mute-swan": {
+  "mp4": "assets/videos/pearl-mute-swan.mp4",
+  "poster": "assets/videos/posters/pearl-mute-swan.webp"
+ },
+ "pebble-sea-otter": {
+  "mp4": "assets/videos/pebble-sea-otter.mp4",
+  "poster": "assets/videos/posters/pebble-sea-otter.webp"
+ },
+ "pebbles-black-tailed-prairie-dog": {
+  "mp4": "assets/videos/pebbles-black-tailed-prairie-dog.mp4",
+  "poster": "assets/videos/posters/pebbles-black-tailed-prairie-dog.webp"
+ },
+ "pelly-brown-pelican": {
+  "mp4": "assets/videos/pelly-brown-pelican.mp4",
+  "poster": "assets/videos/posters/pelly-brown-pelican.webp"
+ },
+ "pip-platypus": {
+  "mp4": "assets/videos/pip-platypus.mp4",
+  "poster": "assets/videos/posters/pip-platypus.webp"
+ },
+ "pipit-european-robin": {
+  "mp4": "assets/videos/pipit-european-robin.mp4",
+  "poster": "assets/videos/posters/pipit-european-robin.webp"
+ },
+ "pixel-leopard-gecko": {
+  "mp4": "assets/videos/pixel-leopard-gecko.mp4",
+  "poster": "assets/videos/posters/pixel-leopard-gecko.webp"
+ },
+ "prism-narwhal": {
+  "mp4": "assets/videos/prism-narwhal.mp4",
+  "poster": "assets/videos/posters/prism-narwhal.webp"
+ },
+ "pudding-common-wombat": {
+  "mp4": "assets/videos/pudding-common-wombat.mp4",
+  "poster": "assets/videos/posters/pudding-common-wombat.webp"
+ },
+ "puff-spotted-pufferfish": {
+  "mp4": "assets/videos/puff-spotted-pufferfish.mp4",
+  "poster": "assets/videos/posters/puff-spotted-pufferfish.webp"
+ },
+ "ringo-ring-tailed-lemur": {
+  "mp4": "assets/videos/ringo-ring-tailed-lemur.mp4",
+  "poster": "assets/videos/posters/ringo-ring-tailed-lemur.webp"
+ },
+ "rio-scarlet-macaw": {
+  "mp4": "assets/videos/rio-scarlet-macaw.mp4",
+  "poster": "assets/videos/posters/rio-scarlet-macaw.webp"
+ },
+ "ripple-bottlenose-dolphin": {
+  "mp4": "assets/videos/ripple-bottlenose-dolphin.mp4",
+  "poster": "assets/videos/posters/ripple-bottlenose-dolphin.webp"
+ },
+ "river-north-american-beaver": {
+  "mp4": "assets/videos/river-north-american-beaver.mp4",
+  "poster": "assets/videos/posters/river-north-american-beaver.webp"
+ },
+ "roam-american-bison": {
+  "mp4": "assets/videos/roam-american-bison.mp4",
+  "poster": "assets/videos/posters/roam-american-bison.webp"
+ },
+ "roo-red-kangaroo": {
+  "mp4": "assets/videos/roo-red-kangaroo.mp4",
+  "poster": "assets/videos/posters/roo-red-kangaroo.webp"
+ },
+ "ruby-seven-spotted-ladybug": {
+  "mp4": "assets/videos/ruby-seven-spotted-ladybug.mp4",
+  "poster": "assets/videos/posters/ruby-seven-spotted-ladybug.webp"
+ },
+ "scout-meerkat": {
+  "mp4": "assets/videos/scout-meerkat.mp4",
+  "poster": "assets/videos/posters/scout-meerkat.webp"
+ },
+ "shellby-hermit-crab": {
+  "mp4": "assets/videos/shellby-hermit-crab.mp4",
+  "poster": "assets/videos/posters/shellby-hermit-crab.webp"
+ },
+ "slinky-corn-snake": {
+  "mp4": "assets/videos/slinky-corn-snake.mp4",
+  "poster": "assets/videos/posters/slinky-corn-snake.webp"
+ },
+ "smudge-striped-skunk": {
+  "mp4": "assets/videos/smudge-striped-skunk.mp4",
+  "poster": "assets/videos/posters/smudge-striped-skunk.webp"
+ },
+ "snap-baby-nile-crocodile": {
+  "mp4": "assets/videos/snap-baby-nile-crocodile.mp4",
+  "poster": "assets/videos/posters/snap-baby-nile-crocodile.webp"
+ },
+ "spindle-short-beaked-echidna": {
+  "mp4": "assets/videos/spindle-short-beaked-echidna.mp4",
+  "poster": "assets/videos/posters/spindle-short-beaked-echidna.webp"
+ },
+ "splash-orca": {
+  "mp4": "assets/videos/splash-orca.mp4",
+  "poster": "assets/videos/posters/splash-orca.webp"
+ },
+ "squish-reef-squid": {
+  "mp4": "assets/videos/squish-reef-squid.mp4",
+  "poster": "assets/videos/posters/squish-reef-squid.webp"
+ },
+ "stella-common-starfish": {
+  "mp4": "assets/videos/stella-common-starfish.mp4",
+  "poster": "assets/videos/posters/stella-common-starfish.webp"
+ },
+ "strider-common-ostrich": {
+  "mp4": "assets/videos/strider-common-ostrich.mp4",
+  "poster": "assets/videos/posters/strider-common-ostrich.webp"
+ },
+ "summit-mountain-goat": {
+  "mp4": "assets/videos/summit-mountain-goat.mp4",
+  "poster": "assets/videos/posters/summit-mountain-goat.webp"
+ },
+ "sunny-american-alligator": {
+  "mp4": "assets/videos/sunny-american-alligator.mp4",
+  "poster": "assets/videos/posters/sunny-american-alligator.webp"
+ },
+ "sunny-quokka": {
+  "mp4": "assets/videos/sunny-quokka.mp4",
+  "poster": "assets/videos/posters/sunny-quokka.webp"
+ },
+ "taffy-llama": {
+  "mp4": "assets/videos/taffy-llama.mp4",
+  "poster": "assets/videos/posters/taffy-llama.webp"
+ },
+ "tambo-baby-elephant": {
+  "mp4": "assets/videos/tambo-baby-elephant.mp4",
+  "poster": "assets/videos/posters/tambo-baby-elephant.webp"
+ },
+ "tide-dugong": {
+  "mp4": "assets/videos/tide-dugong.mp4",
+  "poster": "assets/videos/posters/tide-dugong.webp"
+ },
+ "truffle-domestic-piglet": {
+  "mp4": "assets/videos/truffle-domestic-piglet.mp4",
+  "poster": "assets/videos/posters/truffle-domestic-piglet.webp"
+ },
+ "tuck-nine-banded-armadillo": {
+  "mp4": "assets/videos/tuck-nine-banded-armadillo.mp4",
+  "poster": "assets/videos/posters/tuck-nine-banded-armadillo.webp"
+ },
+ "tuki-toco-toucan": {
+  "mp4": "assets/videos/tuki-toco-toucan.mp4",
+  "poster": "assets/videos/posters/tuki-toco-toucan.webp"
+ },
+ "tundra-atlantic-walrus": {
+  "mp4": "assets/videos/tundra-atlantic-walrus.mp4",
+  "poster": "assets/videos/posters/tundra-atlantic-walrus.webp"
+ },
+ "whiskers-domestic-cat": {
+  "mp4": "assets/videos/whiskers-domestic-cat.mp4",
+  "poster": "assets/videos/posters/whiskers-domestic-cat.webp"
+ },
+ "yuki-domestic-yak": {
+  "mp4": "assets/videos/yuki-domestic-yak.mp4",
+  "poster": "assets/videos/posters/yuki-domestic-yak.webp"
+ },
+ "zing-ruby-throated-hummingbird": {
+  "mp4": "assets/videos/zing-ruby-throated-hummingbird.mp4",
+  "poster": "assets/videos/posters/zing-ruby-throated-hummingbird.webp"
+ },
+ "zip-common-squirrel-monkey": {
+  "mp4": "assets/videos/zip-common-squirrel-monkey.mp4",
+  "poster": "assets/videos/posters/zip-common-squirrel-monkey.webp"
+ }
+}

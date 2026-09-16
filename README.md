@@ -51,10 +51,14 @@ character/<name>-<species>.html     100 individual character pages
 assets/css/style.css                All design tokens live in :root
 assets/js/app.js                    Gallery filtering, alphabet index, surprise me
 assets/js/detail.js                 Copy-to-clipboard for prompts
+assets/js/videos.js                 Click-to-play video logic (detail pages + featured strip)
 assets/data/characters.js           Gallery dataset (100 records)
 assets/thumbs/                      Grid images    (560 x 700)
 assets/full/                        Detail images  (1120 x 1400)
 assets/fonts/                       Self-hosted webfonts
+assets/videos/<slug>.mp4            100 animated showcases (720x1280, ~5s, no audio)
+assets/videos/posters/<slug>.webp   Poster frames shown before playback
+assets/videos/manifest.json         Slug -> video/poster path map
 
 source/                             Original prompt source documents
 tools/                              Scripts used to generate the site
@@ -83,6 +87,16 @@ Opening `index.html` straight from the filesystem also works.
 The master prompt template is published in full at `master-prompt.html`, with the source documents in `source/`. Replace the bracketed fields with your own character's details and the same structure produces a consistent sheet.
 
 Twelve things worth deciding before you write the prompt: name, species, visual quirk, accessory, habitat, personality traits, expressions, palette, height, macro details, material, and bio.
+
+---
+
+## The animated showcases
+
+All 100 characters also have a **five-second animated showcase** (720×1280, no audio), generated from each character sheet.
+
+- **Where**: every character page carries its clip beneath the sheet — poster frame first, plays on click. The homepage also features an eight-character strip: click any portrait to play it in the main player.
+- **Delivery**: video elements are created only on click, so pages load exactly as fast as before; nothing is fetched until a visitor presses play.
+- **Storage**: H.264 MP4 with `faststart`, re-encoded from the ~10 MB originals to ~2.5 MB each (246 MB total) so GitHub Pages serves them comfortably.
 
 ---
 
